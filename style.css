@@ -1,0 +1,94 @@
+*
+{margin:0;
+    padding:0}
+
+div
+{
+    font-family: Calibri;
+}
+.active
+{
+    background-color: darkmagenta;
+}
+h1
+{
+    font-family: Arial,sans-serif;
+    border-bottom-style: dotted;
+    border-bottom-width: thin;
+    margin-top: 15px;
+    margin-left:15px;
+    margin-bottom: 15px;
+}
+body
+{
+    height: 100%;
+}
+#content
+{
+    height: 100%;
+    clear: both;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+#footer
+{
+    width:98%;
+    height:150px;
+    left:0;
+    bottom:0;
+    margin:0;
+    position:fixed;
+    background-color:white;
+    padding-left: 20px;
+    padding-right:15px;
+}
+#page
+{border-top-style: dotted;
+    border-top-width: thin;
+    font-family: Arial,sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+.announce
+{
+    font-size:17px;
+}
+.foot
+{   background-color:#dfe7ff;
+    border-style: solid;
+    border-color:grey;
+    border-width: thin;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    font-family: "Calibri Light";
+    font-size: 15px;
+    width:35px;
+    height:17px;
+    margin-right: 5px;
+    margin-bottom:5px;
+}
+.foot:hover
+{
+    background-color: darkmagenta;
+    color: white;
+}
+
+span.date
+{
+    background-color: darkmagenta;
+    color: white;
+    font-family:Calibri;
+    margin:3px 8px 0 0;
+}
+.title
+{
+    font-size: 20px;
+}
+.col
+{
+    display: block;
+}
